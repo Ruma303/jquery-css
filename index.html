@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live coding: jquery-css</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        .added {
+            background-color: red;
+        }
+        .paragraph {
+            color: blueviolet;
+            background-color: lightgrey;
+            padding: .5em 1em;
+            font-weight: 600;
+            width: fit-content;
+        }
+        .sizes {
+            width: 200px;
+            height: 100px;
+            margin: 0 10em 3em;
+            padding: 1em;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+    <body>
+        <h1>Gestione del CSS in jQuery</h1>
+
+        <!-- Gestire le Proprietà di Visualizzazione -->
+        <button id="hide-btn">Nascondimi</button>
+        <button id="show-btn">Mostra</button>
+        <button id="toggle-btn">Toggle</button>
+
+        <br><br><br>
+
+        <!-- Aggiungere e Rimuovere Classi -->
+        <article class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque temporibus hic exercitationem dolorem maiores soluta odit magni consequatur rem, dignissimos libero? Sequi beatae iure architecto sit rem illum praesentium atque?
+        </article>
+
+        <button id="add-class">Aggiungi classe</button>
+        <button id="remove-class">Rimuovi classe</button>
+        <button id="toggle-class">Alterna classe</button>
+
+        <br><br><br>
+
+        <!-- Gestire le Proprietà CSS -->
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button id="css-color">Mostra colore</button>
+        <button id="css-new">Aggiungi CSS</button>
+        <button id="css-multi">Alterna più proprietà CSS</button>
+        <button id="css-fn">Utilizza funzioni</button>
+        <button id="css-bigger-font">Ingrandisci font</button>
+        <button id="css-smaller-font">Rimpicciolisci font</button>
+
+        <br><br><br>
+
+        <!-- Gestire le dimensioni degli elementi -->
+        <p class="sizes">Lorem ipsum dolor.</p>
+        <button id="css-ele-1">Sizing 1</button>
+        <button id="css-ele-2">Sizing 2</button>
+
+    </body>
+</html>
